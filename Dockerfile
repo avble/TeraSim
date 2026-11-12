@@ -107,6 +107,13 @@ RUN apt-get update && apt-get install -y \
     libproj22 \
     libxml2 \
     libxslt1.1 \
+    libxrender1 \
+    libxext6 \
+    libsm6 \
+    libice6 \
+    libgl1 \
+    libglu1-mesa \
+    libfontconfig1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set Python 3.10 as default
