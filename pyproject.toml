@@ -92,3 +92,6 @@ exclude_lines = [
     "if 0:",
     "if __name__ == .__main__.:"
 ]
+
+[tool.pyright]
+extraPaths = ["packages/", "packages/terasim", "packages/terasim-nde-nade", "packages/terasim-service", "packages/terasim-envgen", "packages/terasim-datazoo", "packages/terasim-vis", "packages/terasim-cosmos"]
